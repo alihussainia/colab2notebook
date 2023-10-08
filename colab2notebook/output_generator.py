@@ -7,7 +7,7 @@ from .generate_token import show_token
 
 out_dict={}
 
-def start_notebook():
+def start_book():
   # output_dictionary
   out_dict["IP Address"]= show_ip_address()
   run()  # Call the run function
@@ -17,11 +17,11 @@ def start_notebook():
   out_dict["Token"]= show_token()
   
   if any(value in (None, '') for value in out_dict.values()):
-    start_notebook()
+    start_book()
 
   call("sudo rm -R temp.txt",shell=True)    
   return out_dict
 
 
 if __name__ == "__main__":
-  start_notebook()
+  start_book()

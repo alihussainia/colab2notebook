@@ -1,6 +1,6 @@
 import subprocess 
 
-def stop_notebook():
+def stop_book():
   # Run the command
   result = subprocess.run(
       "fuser -k 8888/tcp",
@@ -15,4 +15,4 @@ def stop_notebook():
     print("Notebook Stopped")
 
 if __name__ == "__main__":
-  stop_notebook()
+  stop_book()

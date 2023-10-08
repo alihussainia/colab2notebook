@@ -1,6 +1,11 @@
-from setuptools import setup
+Metadata-Version: 2.1
+Name: colab2notebook
+Version: 1.0.0
+Summary: Jupyter Notebook on Google Colab
+Author: Muhammad Ali
+Author-email: malirashid1994@gmail.com
 
-setup(long_description="""Use Jupyter Notebook with Google Colab CPU/GPU/TPU Backend.
+Use Jupyter Notebook with Google Colab CPU/GPU/TPU Backend.
 
 This package allows you to use Terminal access free of cost, the feature that is available to only Colab Pro users. This package will also allow you to use multiple notebooks thanks to tabs.
 
@@ -13,11 +18,4 @@ Enjoy and keep contributing!
 Ali
 
 GitHub: https://www.github.com/alihussainia
-Linkedin: https://wwww.linkedin.com/in/alihussainia""",
-name='colab2notebook',
-version='1.0.0',
-description='Jupyter Notebook on Google Colab',
-packages=['colab2notebook'],
-author='Muhammad Ali',
-author_email='malirashid1994@gmail.com',
-zip_file=False)
+Linkedin: https://wwww.linkedin.com/in/alihussainia
