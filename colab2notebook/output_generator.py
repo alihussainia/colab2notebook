@@ -5,13 +5,14 @@ from .notebook_starter import run
 from .notebook_url import show_url
 from .generate_token import show_token
 
+call("npm install -g localtunnel", shell=True)
 out_dict={}
 
 def start_book():
   # output_dictionary
   out_dict["IP Address"]= show_ip_address()
   run()  # Call the run function
-  #time.sleep(2)
+  time.sleep(2)
   out_dict["URL"]= show_url()
   time.sleep(2)
   out_dict["Token"]= show_token()

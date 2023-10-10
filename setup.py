@@ -15,7 +15,7 @@ Ali
 GitHub: https://www.github.com/alihussainia
 Linkedin: https://wwww.linkedin.com/in/alihussainia""",
 name='colab2notebook',
-version='1.0.0',
+version='1.0.2',
 description='Jupyter Notebook on Google Colab',
 packages=['colab2notebook'],
 author='Muhammad Ali',
